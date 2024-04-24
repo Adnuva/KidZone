@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hijaumuda"
+    tools:context=".Menu">
+
+
+    <ImageView
+        android:layout_width="@dimen/_175sdp"
+        android:layout_height="@dimen/_175sdp"
+        android:src="@drawable/menu"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginLeft="@dimen/_110sdp"
+
+        />
+
+
+    <!--    Doa-Doa-->
+    <ImageView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/doa"
+        android:layout_marginTop="@dimen/_150sdp"
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:onClick="doa"
+        />
+
+    <!--    Jurnal Sholat-->
+    <ImageView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/imam"
+        android:layout_marginTop="@dimen/_150sdp"
+        android:layout_marginLeft="@dimen/_200sdp"
+        android:onClick="imam"
+        />
+
+    <!--    Jurnal Tarawih-->
+    <ImageView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/tarawih"
+        android:layout_marginTop="@dimen/_300sdp"
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:onClick="tarawih"
+        />
+
+    <!--    Hafalan Surah-->
+    <ImageView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/surah"
+        android:layout_marginTop="@dimen/_300sdp"
+        android:layout_marginLeft="@dimen/_200sdp"
+        android:onClick="surah"
+        />
+
+    <!--    Tadarus-->
+    <ImageView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/tadarus"
+        android:layout_marginTop="@dimen/_450sdp"
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:onClick="tadarus"
+        />
+
+    <!--   Idul Fitri -->
+    <ImageView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/eid"
+        android:layout_marginTop="@dimen/_450sdp"
+        android:layout_marginLeft="@dimen/_200sdp"
+        android:onClick="eid"
+        />
+
+
+
+
+</RelativeLayout>

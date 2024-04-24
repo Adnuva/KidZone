@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kuning"
+    tools:context=".Biodata">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_310sdp"
+        android:layout_height="@dimen/_302sdp"
+        android:layout_marginTop="@dimen/_200sdp"
+        android:layout_marginLeft="@dimen/_50sdp"
+        app:cardBackgroundColor="@color/tua"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:src="@drawable/profile" />
+        <TextView
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="wrap_content"
+            android:text="Nadila"
+            android:layout_marginTop="@dimen/_45sdp"
+            android:layout_marginLeft="@dimen/_150sdp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/_20ssp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:text="Aula Arosyid"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_140sdp"
+            android:textSize="@dimen/_20ssp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_140sdp"
+            android:text="Kelas      :  XI PPLG B"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:textSize="@dimen/_13ssp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="@dimen/_290sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_160sdp"
+            android:text="Alamat  :  Jl. Kedasih No.13A, Rt 02/ Rw 05,
+                                        Kerten, Laweyan, Surakarta"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_18sdp"
+            android:textSize="@dimen/_13ssp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_194sdp"
+            android:text="Sekolah : SMK Negeri 2 Surakarta"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:textSize="@dimen/_13ssp"
+            android:textAlignment="center"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
